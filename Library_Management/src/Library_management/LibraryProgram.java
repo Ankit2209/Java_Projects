@@ -16,7 +16,7 @@ import java.util.Scanner;
 				Scanner obj=new Scanner(System.in);
 				System.out.println(" Enter any number ");
 				int  a=obj.nextInt();
-				switch(a) {
+				switch(a) {				// using switch case to select option
 				case 1:
 					Library l=new Library();
 					l.add();
@@ -65,7 +65,7 @@ import java.util.Scanner;
 				System.out.println(" Your book detail is: Book Name: "+ str+" ,Price is: "+price+" ,Book id is: "+bookNo);
 
 			}
-			void issue(){
+			void issue(){					
 				Scanner sc1=new Scanner(System.in);
 				System.out.println("Book Name");
 				str=sc1.nextLine();
